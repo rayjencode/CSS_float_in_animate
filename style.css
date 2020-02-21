@@ -25,7 +25,7 @@
     padding-bottom: 10px;
 }
 
-/* Column and Content */
+/* Column and Content + the animation */
 .col{
     position: relative;
     overflow: hidden;
@@ -77,8 +77,6 @@
 .text-center{
     text-align: center;
 }
-
-
 
 /* extra */
 .cursor-pointer{
