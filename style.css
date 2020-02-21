@@ -39,7 +39,7 @@
 .col__content{
     position: absolute;
     bottom: 0;
-    transform: translateY(40px);
+    transform: translateY(37px);
     transition: all 0.4s ease;
     cursor: pointer;
 }
@@ -60,11 +60,25 @@
 .text-yellow{
     color: yellow;
 }
+.transparent-overlay{
+    background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+}
 
 /* sizing */
 .w-100{
     width: 100%;
 }
+.mt-1{
+    margin-top: 10px;
+}
+
+
+/* position */
+.text-center{
+    text-align: center;
+}
+
+
 
 /* extra */
 .cursor-pointer{
