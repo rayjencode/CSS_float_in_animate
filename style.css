@@ -1,0 +1,60 @@
+
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* max width */
+.container{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* 3 grid */
+.main{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 15px;
+}
+
+.book__now{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Column and Content */
+.col{
+    position: relative;
+    overflow: hidden;
+}
+.col__content{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.col__content:hover{
+    transform: translateY(-3px);
+}
+
+
+/* Color */
+.bg-yellow{
+    background: yellow
+}
+.bg-white{
+    background: white
+}
+
+.text-white{
+    color: white;
+}
+
+/* sizing */
+.w-100{
+    width: 100%;
+}
