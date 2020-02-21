@@ -30,16 +30,20 @@
     position: relative;
     overflow: hidden;
 }
+
+.col:hover .col__content{
+    transform: translateY(-3px);
+   
+}
+
 .col__content{
     position: absolute;
     bottom: 0;
     transform: translateY(40px);
-    transition: all 1s ease;
+    transition: all 0.4s ease;
     cursor: pointer;
 }
-.col__content:hover{
-    transform: translateY(-3px);
-}
+
 
 
 /* Color */
@@ -53,8 +57,16 @@
 .text-white{
     color: white;
 }
+.text-yellow{
+    color: yellow;
+}
 
 /* sizing */
 .w-100{
     width: 100%;
+}
+
+/* extra */
+.cursor-pointer{
+    cursor: pointer;
 }
